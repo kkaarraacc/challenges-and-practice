@@ -41,7 +41,6 @@ class tictactoe {
 		if (playercount == board.length)
 				return true;
 		return false;
-		
 	}
 	
 	static boolean winCheck(int[][] board, int playerid) {
