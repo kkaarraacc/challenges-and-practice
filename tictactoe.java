@@ -58,9 +58,9 @@ class tictactoe {
 	
 	public static void main(String args[]) {
 		int[][] board = new int[][] {{2,2,2,2}, 
-									 {2,1,2,1}, 
-									 {2,2,2,1},
-									 {1,2,1,1}};
+					     {2,1,2,1}, 
+					     {2,2,2,1},
+					     {1,2,1,1}};
 		System.out.println(winCheck(board, 1));
 		System.out.println(winCheck(board, 2));
 	}
