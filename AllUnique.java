@@ -8,7 +8,7 @@ public class AllUnique {
 			if(string.charAt(i) != ' ') {
 				for (int j = 0; j < string.length(); j++) {
 					if (string.charAt(i) == string.charAt(j))
-							count ++;
+						count ++;
 					if (count > 1)
 						return false;
 				}
